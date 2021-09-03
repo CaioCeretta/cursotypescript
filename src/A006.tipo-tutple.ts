@@ -5,9 +5,9 @@ const clientData2: [number, string, string] = [1, 'Caio', 'Ceretta'];
 const clientData3: [number, string, string?] = [1, 'Caio'];
 const clientData4: [number, string, ...string[]] = [1, 'Caio', 'Ceretta', 'Soares', 'dos', 'Santos'];
 
-clientData[0] = 5;
+// clientData[0] = 5;
 
-clientData.pop();
+// clientData.pop();
 console.log(clientData);
 console.log(clientData2);
 console.log(clientData3);

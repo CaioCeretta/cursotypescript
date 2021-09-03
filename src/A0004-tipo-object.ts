@@ -19,11 +19,12 @@ const objetoA: {
 } = {
   chaveA: 'Valor A',
   chaveB: 'Valor B',
+  chaveC: 'Valor C',
 };
 
-objetoA.chaveA = 'Outro valor';
-objetoA.chaveA = 'b';
-objetoA.chaveC = 'Teste';
+// objetoA.chaveA = 'Outro valor';
+// objetoA.chaveA = 'b';
+// objetoA.chaveC = 'Teste';
 objetoA.chaveD = 'Teste2';
 
 console.log(objetoA);
