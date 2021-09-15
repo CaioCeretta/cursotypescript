@@ -22,6 +22,10 @@ module.exports = {
   plugins: ['@typescript-eslint'],
   rules: {
     'import/prefer-default-export': 'off',
-    'eslint-disable':  'import/extensions'
+    'no-useless-constructor': 'off',
+    'no-underscore-dangle': 'off',
+    'no-restricted-syntax': 'off',
+    'max-classes-per-file': 'off',
+    'class-methods-use-this': 'off',
   },
 };
